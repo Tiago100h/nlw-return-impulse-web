@@ -23,7 +23,7 @@ export function FeedbackTypeStep({ onFeedbackTypeChanged }: FeedbackTypeStepProp
               onClick={() => onFeedbackTypeChanged(key as FeedbackType)}
               type="button"
             >
-              <img src={value.image.source} alt={value.image.alt} />
+              <img src={value.image.source} alt={value.image.alt} className="mx-auto" />
               <span>{value.title}</span>
             </button>
           );
